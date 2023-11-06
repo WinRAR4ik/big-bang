@@ -1,0 +1,24 @@
+.header{
+  background-color: #14107a;
+  font-family: "Roboto", sans-serif;
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    .Somlogo{
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .list{
+      display: flex;
+      .item{
+        padding: 12px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  .right {
+    width: 35%;
+
+
+    .login {
+      color: white;
+      padding: 12px;
+      background-color: #14107a;
+      border-radius: 5px;
+
+      .input-name {
+        font-size: 20px;
+        margin-top: 12px;
+
+      }
+
+      .input {
+        width: 100%;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 12px 8px;
+        margin-top: 8px;
+      }
+    }
+
+    .btn-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+
+      .registrate {
+        color: white;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+      .btn {
+        cursor: pointer;
+        padding: 16px 12px;
+        border-radius: 5px;
+        background-color: white;
+      }
+    }
+  }
+}
