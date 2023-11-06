@@ -1,0 +1,32 @@
+.header {
+  background-color: #14107a;
+  font-family: "Roboto", sans-serif;
+}
+.header .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .wrap .Somlogo {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header .wrap .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .wrap .list .item {
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+}

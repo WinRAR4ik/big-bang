@@ -1,0 +1,70 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+.main .left .card {
+  width: 400px;
+  -webkit-box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+          box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+  border-radius: 5px;
+}
+.main .left .card .img {
+  width: 100%;
+}
+.main .left .card .content-wrap {
+  padding: 10px;
+}
+.main .left .card .content-wrap .title {
+  font-size: 24px;
+}
+.main .left .card .content-wrap .subtitle {
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgba(170, 170, 170, 0.6666666667);
+}
+.main .left .card .content-wrap .text {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.main .left .card .content-wrap .date-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+.main .left .card .content-wrap .date-wrap .date-name {
+  font-size: 18px;
+}
+.main .left .card .content-wrap .date-wrap .date {
+  font-size: 18px;
+}
+.main .left .card .content-wrap .btn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+.main .left .card .content-wrap .btn-wrap .btn {
+  background-color: #14107a;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+}
