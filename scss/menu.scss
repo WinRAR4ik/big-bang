@@ -12,12 +12,25 @@
       font-size: 25px;
       font-weight: bold;
     }
-    .list{
+    .btn{
+      background-color: #14107a;
+      display: inline-block;
+    }
+    .menu{
       display: flex;
-      .item{
-        padding: 12px;
-        color: white;
+      &.active
+      .list{
+        box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+        border-radius: 5px;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-5px);
+      .item {
+        text-align: center;
+        padding: 6px 12px;
         cursor: pointer;
+
+      }
       }
     }
   }

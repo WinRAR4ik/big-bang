@@ -20,13 +20,26 @@
   font-size: 25px;
   font-weight: bold;
 }
-.header .wrap .list {
+.header .wrap .btn {
+  background-color: #14107a;
+  display: inline-block;
+}
+.header .wrap .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.header .wrap .list .item {
-  padding: 12px;
-  color: white;
+.header .wrap .menu.active .list {
+  -webkit-box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+          box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+.header .wrap .menu.active .list .item {
+  text-align: center;
+  padding: 6px 12px;
   cursor: pointer;
 }
